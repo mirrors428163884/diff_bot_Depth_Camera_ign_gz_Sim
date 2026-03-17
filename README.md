@@ -53,7 +53,7 @@ sudo apt install -y ignition-fortress
 4. **Install ROS-Gazebo Bridge**
 ```bash
 sudo apt install -y ros-humble-ros-gz-bridge
-```
+
 # 进入工作空间根目录
 cd ~/ros2_ws
 
@@ -62,7 +62,7 @@ cd ~/ros2_ws
 # -r: 即使某个包安装失败也继续尝试安装其他包
 # -i: 忽略已经安装的 ROS 包（只安装系统依赖）
 rosdep install --from-paths src -y -r -i
-
+```
 
 
 ## Intel RealSense D435 Simulation
